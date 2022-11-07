@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding='utf-8'?>
+<odoo>
+    <record id="base.module_category_sales_sales" model="ir.module.category">
+            <field name="description">Helps you handle your quotations, sale orders and invoicing.</field>
+            <field name="sequence">1</field>
+        </record>
+
+        <record id="sales_team.group_sale_salesman" model="res.groups">
+            <field name="name">User: Own Documents Only 2</field>
+            <field name="comment">the user will have access to his own data in the sales application.</field>
+        </record>
+
+        <record id="sales_team.group_sale_salesman_all_leads" model="res.groups">
+            <field name="name">User: All Documents 2</field>
+            <field name="comment">the user will have access to all records of everyone in the sales application.</field>
+        </record>
+
+        <record id="sales_team.group_sale_manager" model="res.groups">
+            <field name="name">Administrator 2</field>
+            <field name="comment">the user will have an access to the sales configuration as well as statistic reports.</field>
+        </record>
+
+</odoo>
